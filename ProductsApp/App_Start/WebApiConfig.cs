@@ -13,7 +13,8 @@ namespace ProductsApp
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-
+            
+            //var uri = 'api/products';
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
